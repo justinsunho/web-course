@@ -1,0 +1,91 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.banner {
+    border-bottom: 1px solid black;
+    padding: 1rem;
+    background-color: blue;
+}
+
+.banner a {
+    color: white;
+}
+
+.banner .logo {
+    display: inline-block;
+    width: 48%;
+    margin: 0;
+}
+
+.banner .logo a {
+    font-size: 32px;
+    text-decoration: none;
+}
+
+.banner .logo a:hover {
+    text-decoration: underline;
+}
+
+.link-container {
+    text-align: right;
+    list-style: none;
+    padding-left: 0;
+    width: 50%;
+    margin: 0;
+    display: inline-block;
+}
+
+.link-container .link {
+    display: inline-block;
+    padding: 0 1rem;
+}
+
+.content {
+    min-height: calc(100vh - 6.25rem);
+}
+
+.container {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    width: 100%;
+}
+
+.hero {
+    min-height: 300px;
+    background-image: url("image.png");
+}
+
+.hero .hero-text {
+    max-width: 720px;
+    margin: auto;
+    text-align: center;
+    color: white;
+    background-color: gray;
+    padding: 1rem;
+}
+
+.card-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card-container .title {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.card-container .card {
+    display: inline-block;
+    width: 33%;
+}
+
+.card-container .card .title {
+    text-align: center;
+}
+
+.footer {
+    padding: 1rem;
+    background-color: blue;
+}

@@ -1,0 +1,29 @@
+* {
+    font-family: Helvetica;
+}
+
+.card {
+    margin: 16px;
+    padding: 16px;
+    border: 2px solid black;
+    border-radius: 4px;
+    max-width: 33%;
+}
+
+#card-image {
+    width: 300px;
+}
+
+#banner {
+    background-color: purple;
+    padding: 1rem;
+    color: white;
+}
+
+#first-paragraph {
+    border: 1px solid green;
+}
+
+.paragraph {
+    border: 1px solid blue;
+}
