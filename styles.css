@@ -16,8 +16,9 @@
 
 #banner {
     background-color: purple;
-    padding: 1rem;
+    padding: 16px;
     color: white;
+    margin: 16px;
 }
 
 #first-paragraph {
